@@ -1,0 +1,17 @@
+body {
+    background-color: orange;
+    
+}
+
+section.home {
+    color: aliceblue;
+}
+.heading {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* .about {
+    background: #222;
+} */
