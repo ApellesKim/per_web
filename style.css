@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
+/* #13294B - illini blue */
+/* #FF5F05 - illini orange */
+
 * {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -21,15 +24,37 @@ section {
     min-height: 100vh;
 }
 
-/* home section */
 .home {
-    
+    background-image : url("images/home_background.jpg")
+}
+@keyframes typing {
+    from {width: 0};
 }
 
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
 .home .content .hi {
-    font-size: 50px;
+    text-align: center;
+    display : inline-block;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-name: 
+        typing 2s steps(19)
+        cursor .4s step-end alternate infinite;
+}
+
+
+
+
+.home .content .hi {
+    font-size: 70px;
     font-weight: bold;
-    color: #13294B;
+    color : white;
 }
 
 .home .content p{
@@ -41,4 +66,3 @@ section {
 }
 
 
-/* about section */
