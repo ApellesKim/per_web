@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poetsen:wght@100;300;400;500;700&display=swap');
 
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poetsen', fantasy;
     color: black;
     text-transform: uppercase;
 }
@@ -59,16 +59,16 @@ section {
 .home .home-content .hi {
     place-content: center;
     font-size: 80px;
-    font-weight: bold;
+    /* font-weight: bold; */
     display : inline-block;
     letter-spacing: 10px;
-    font-family: monospace;
+    /* font-family: monospace; */
     border-right: 5px solid;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
     animation: 
-        typing 2s steps(26),
+        typing 2s steps(12),
         cursor .4s step-end alternate infinite;
 }
 
@@ -82,23 +82,16 @@ section {
     color : #3A86FF
 }
 
-/* .about .about-content {
-    
-} */
 
 .about-content {
     display: flex;
     gap: 2rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 30px;
 }
 
 .about-text {
-    flex : 2;
-}
-
-.about-img {
     flex : 1;
 }
 
@@ -114,6 +107,62 @@ section {
     font-size: 1.8rem;
 }
 
-.about .heading img {
-    left: 0%;
+.about-img {
+    flex : 1;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.about-img img {
+    width: 100%;
+    max-width: 300rem;
+    height: auto;
+    object-fit: cover;
+}
+
+.about .statistics {
+    display : flex;
+    justify-content: space-evenly;
+}
+
+.statistics .stat h3{
+    font-size: 3rem;
+}
+
+.statistics .stat p {
+    font-size: 20px;
+}
+
+.project .heading {
+    font-size: 8rem;
+    text-align : center;
+}
+
+.proj-gal {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    align-items: center;
+    width: 180px;
+  }
+  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
