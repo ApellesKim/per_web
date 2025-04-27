@@ -21,7 +21,7 @@ body {
 }
 
 .heading {
-    font-size: 20px;
+    font-size: 8rem;
     text-align: center;
     padding-top: 50px;
 }
@@ -134,10 +134,10 @@ section {
     font-size: 20px;
 }
 
-.project .heading {
+/* .project .heading {
     font-size: 8rem;
     text-align : center;
-}
+} */
 
 .proj-gal {
     display: flex;
@@ -157,7 +157,7 @@ div.gallery:hover {
     border: 1px solid #777;
 }
 
-  div.gallery img {
+div.gallery img {
     width: 100%;
     height: auto;
   }
@@ -166,3 +166,28 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+
+
+.activities {
+    align-items: center;
+    margin: 5px;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div.activities-content {
+    flex-wrap : wrap;
+}
+
+.contact .icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem;
+    padding: 7rem;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    
+}
+
