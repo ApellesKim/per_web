@@ -21,7 +21,20 @@ body {
     text-align: center;
     background-color: gray;
     color: white;
+    display: flex;
+    justify-content: space-around;
 }
+
+.header a{
+    display: block;
+    font-size: 2rem;
+    color: #3A86FF;
+    
+    
+
+}
+
+
 
 .heading {
     font-size: 8rem;
